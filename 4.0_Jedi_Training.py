@@ -44,11 +44,11 @@ print("C. Droid")
 user_input = input("Choose a character?")
 
 
-if user_input == "A":
+if user_input.lower() == "a" or user_input.lower() == "jedi master":
     sensitivity = 1000
-elif user_input == "B":
+elif user_input.lower() == "b" or user_input.lower() == "sith lord":
     sensitivity = 900
-elif user_input == "C":
+elif user_input.lower() == "c" or user_input.lower() == "droid":
     sensitivity = 0
 else:
     print("Not a choice!")
